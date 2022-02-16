@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://docs.fiduciadlt.com/activation/advertiser-activation/</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://docs.fiduciadlt.com/general-info/faq/</loc>
     <lastmod>2021-12-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,13 +12,7 @@
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/activation/</loc>
-    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/activation/intermediary-activation/</loc>
-    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/activation/advertiser/</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/general-info/onboarding-data/</loc>
     <lastmod>2021-10-13T11:02:05+06:00</lastmod>
@@ -29,17 +20,11 @@
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/</loc>
     <lastmod>2021-10-13T11:02:05+06:00</lastmod>
   </url><url>
-    <loc>https://docs.fiduciadlt.com/activation/adserver/</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://docs.fiduciadlt.com/general-info/charter/</loc>
     <lastmod>2021-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/dashboard/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/activation/cv/</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/general-info/tagtrustnet-website/</loc>
     <lastmod>2021-12-16T00:00:00+00:00</lastmod>
@@ -47,17 +32,8 @@
     <loc>https://docs.fiduciadlt.com/general-info/user-accounts/</loc>
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://docs.fiduciadlt.com/activation/dsp/</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/activation/ssp/</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/activation/publisher/</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/data-export/</loc>
-    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/metrics-over-time/</loc>
     <lastmod>2021-12-09T00:00:00+00:00</lastmod>
