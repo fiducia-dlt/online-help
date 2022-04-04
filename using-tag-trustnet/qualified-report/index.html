@@ -2,10 +2,10 @@
 <html lang="en-us">
   <head>
   <meta charset="utf-8">
-  <title>User Accounts Admin</title>
+  <title>Qualified Report</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="generator" content="Hugo 0.86.0" />
-  <meta name="description" content="User Accounts Admin -  ">
+  <meta name="description" content="Qualified Report -  ">
   
   <!-- ** CSS Plugins Needed for the Project ** -->
   
@@ -67,19 +67,19 @@
 
 
 
-<meta name="twitter:title" content="User Accounts Admin"/>
+<meta name="twitter:title" content="Qualified Report"/>
 <meta name="twitter:description" content="This is meta description"/>
 
 
 
-<meta property="og:title" content="User Accounts Admin" />
+<meta property="og:title" content="Qualified Report" />
 <meta property="og:description" content="This is meta description" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://docs.fiduciadlt.com/using-tag-trustnet/user-admin/" />
+<meta property="og:url" content="https://docs.fiduciadlt.com/using-tag-trustnet/qualified-report/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="User Accounts Admin"/>
+<meta name="twitter:title" content="Qualified Report"/>
 <meta name="twitter:description" content="This is meta description"/>
 
 
@@ -294,7 +294,7 @@
 
 
 <li data-nav-id="https://docs.fiduciadlt.com/using-tag-trustnet/qualified-report/" title="Qualified Report" class="sidelist
-  ">
+  active">
   <a href="https://docs.fiduciadlt.com/using-tag-trustnet/qualified-report/">
     Qualified Report
   </a>
@@ -360,7 +360,7 @@
 
 
 <li data-nav-id="https://docs.fiduciadlt.com/using-tag-trustnet/user-admin/" title="User Accounts Admin" class="sidelist
-  active">
+  ">
   <a href="https://docs.fiduciadlt.com/using-tag-trustnet/user-admin/">
     User Accounts Admin
   </a>
@@ -388,81 +388,28 @@
       </div>
       <div class="col-lg-9">
         <div class="p-lg-5 p-4 bg-white" id="content">
-          <h2 class="mb-5" id="title">User Accounts Admin</h2>
+          <h2 class="mb-5" id="title">Qualified Report</h2>
           
           <div class="content">
 
-<div class="notices note" ><p>The capabilities described below apply to all node types (except where noted).</p></div>
-<p>This documentation will provide information on how user accounts are created, managed, and activated/inactivated, as well as providing details on the access options for accounts.</p>
-<h3 id="requesting-a-user-account">Requesting a user account</h3>
-<p>Every company who has a node on TAG TrustNet will have at least one person who can create user accounts for all users in that node (the Node User Administrator). If a new user account is required, the person who is the Node User Administrator(s) for the node at that company should be contacted to set it up.  The information that will be needed to set up a new account is:</p>
+<div class="notices note" ><p>The Qualified Report  is only available on advertiser or agency nodes.</p></div>
+<p>The objective of this screen is to allow you to quickly see why your SSPs or Publishers are not meeting your qualified spend target.  The qualified spend metric is typically defined by 5-7 other metrics.  This report allows you to see how each of your partners are performing against all 5-7 metrics without having to run a bunch of individual queries.</p>
+<p><img src="QualifiedReport.png" alt="image" title=""></p>
+<h3 id="filtering-options">Filtering Options</h3>
+<p>It is important to highlight that the data above can be viewed with a few options at the top of the screen.  These options are highlighted in the blue ovals above.</p>
+<h5 id="show-with-metrics-less-than">Show with metrics less than</h5>
+<p>If you want to see the exchanges or domains that have qualified metrics at or below a specific number this slider control can be used for this.  For example, if you want to see only exchanges that had one or more of their metrics below 60%, you could set this control to 60%. All other exchanges will not be displayed.</p>
+<h5 id="vendor-type">Vendor Type</h5>
+<p>In this filter you have the following options:</p>
 <ul>
-<li>First and last name</li>
-<li>Email address</li>
-<li>Type of role.  See below for the types of roles available.</li>
-<li>Country restrictions (optional) (advertiser and agency nodes only)</li>
-<li>Advertiser restrictions (optional) (agency nodes only)</li>
+<li>Exchanges: this will list all of the exchanges and their corresponding metrics.</li>
+<li>Publisher/Domains: this will list all of the domains and their corresponding metrics.</li>
 </ul>
-<p>If you don&rsquo;t know who the Node User Administrator is for your company, please contact us at <a href="mailto:support@tagtrust.net">support@tagtrust.net</a>.</p>
-<h3 id="creating-a-user-account">Creating a user account</h3>
-<p>For Node User Administrators, here is how you create a new user account:</p>
-<ol>
-<li>Login to your TAG TrustNet account</li>
-<li>On the top navigation bar select <em>Users</em>.</li>
-<li>On the top-right of the screen below, click on the <em>+ NEW USER</em> button.</li>
-<li>Enter the user name (first and last) and the email address.</li>
-<li>Select the user role (see below for a description for each one).</li>
-<li>Advertiser and agency nodes only: Review the Countries setting to see if it is correct</li>
-<li>Agency nodes only: If one or more countries have been selected, and if the Business Metrics Viewer role has been selected, review the <em>Restrict by Advertisers</em> field to make sure it is correct.  See below for more details.</li>
-<li>Click on the <em>Create User</em> button on the bottom of the screen.</li>
-</ol>
-<p>Once this last step is completed the user will automatically receive an email with a link to set the password for their new account.  This email will include all information needed to log into the account including the following:</p>
-<ul>
-<li>the login URL</li>
-<li>the node name</li>
-<li>the user&rsquo;s account name (which is the user&rsquo;s email address)</li>
-</ul>
-<p>This email will be sent from <em>TAG TrustNet</em> and the subject will be <em>New TAG TrustNet Account</em>.</p>
-<h3 id="settings-for-user-accounts">Settings for user accounts</h3>
-<p>The following describes in more detail the settings for setting-up user accounts.</p>
-<h5 id="user-roles">User Roles</h5>
-<ul>
-<li><em>Node User Administrator:</em> This role is able to create new accounts for users in the node, as well as view all screens for all countries (for advertiser and agency nodes) and all advertisers (for agency nodes).  This role can also create user accounts that can be Node User Administrators.</li>
-<li><em>Business Metrics Viewer (advertiser or agency node only):</em> The access for this role will be limited to the screens accessed from the Dashboard and Insights options in the top navigation bar.</li>
-<li><em>Data Manager:</em>
-<ul>
-<li>for advertiser and agency nodes, the access for this role will be limited to the screens accessed from the Node Health option in the top navigation bar.</li>
-<li>for all ad server, CV, DSP, Exchange/SSP, and Publisher nodes the access for this role will be limited to the Node option in the top navigation bar.</li>
-</ul>
-</li>
-</ul>
-<p>If the Node User Administrator has been selected, no other roles can be selected (since the Node User Administrator can view all screens that are available to the other roles).  The other two roles can be selected in any combination (based on their availability).</p>
-<h5 id="countries-advertiser-and-agency-nodes-only">Countries (advertiser and agency nodes only)</h5>
-<p>This will allow users who have been assigned the Business Metrics Viewer role to have their access to be restricted to one or more countries.  This setting does not impact the screens or data available to the Data Manager role.</p>
-<h5 id="advertiser-restriction-agency-node-only">Advertiser Restriction (agency node only)</h5>
-<p>When the Business Metrics Viewer role is selected, and at least one country has been selected, the access for a user can be restricted to one or more advertisers.  This setting will impact all screens that the Business Metrics Viewer has access to (for details on these screens, see <em>User Roles</em> above).</p>
-<h5 id="making-an-account-active-or-inactive">Making an account active or inactive</h5>
-<p>The user&rsquo;s account can be changed to be active or inactive by the <em>is active</em> control.  If it is inactive the user is not allowed to login to their TAG TrustNet node.  Accounts are not allowed to be deleted in order to maintain user data integrity.</p>
-<h5 id="resetting-a-password">Resetting a password</h5>
-<p>If a user has forgotten their password or has been locked out of their account after 3 failed logins, the Node User Adminstrator should follow these steps to reset the password:</p>
-<ol>
-<li>Login to your TAG TrustNet account</li>
-<li>On the top navigation bar select <em>Users</em>.</li>
-<li>Select the <em>All users</em> view.</li>
-<li>Find the row that has the account that needs the password reset.</li>
-<li>On the far right of that row there is an icon with three dots.  Click it and select &ldquo;Reset Password&rdquo;</li>
-<li>Click the link <em>Send Link by Email</em> and an email will automatically be sent to the user to reset their password (the email will be sent from <em>TAG TrustNet</em> and the subject will be <em>Reset Password</em>).  Alternatively you can send this manually by copying the link in the dialog window.</li>
-</ol>
-<h3 id="other-account-information">Other Account Information</h3>
-<h5 id="time-out">Time-out</h5>
-<p>If a users account is inactive for 30 minutes the user will need to login again.</p>
-<h5 id="3-failed-logins">3 Failed Logins</h5>
-<p>If a user has tried unsuccessfully to login 3 times, the account will be locked.  The only way the user can get access to their account is to have their password reset by the Node User Administrator.  Instructions on how to do this are above (see <em>Resetting a password</em>).</p>
-<h5 id="mandatory-password-changes">Mandatory Password Changes</h5>
-<p>A node can be configured to require that all user passwords be changed every 60 days.  Contact TAG TrustNet support to have this enabled.</p>
+<h5 id="exchange-or-publisherdomain">Exchange or Publisher/Domain</h5>
+<p>This field will allow you to filter the data in this report to a specific exchange or domain.</p>
 </div>
           
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 21 Jan 2021</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 04 Apr 2022</p>
           <nav class="pagination mt-3">
             
             
@@ -737,6 +684,26 @@
             
             
             
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
             
             
@@ -786,26 +753,6 @@
             
             
             
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             
             
 
@@ -822,10 +769,10 @@
             
 
             
-            <a class="nav nav-prev" href="https://docs.fiduciadlt.com/using-tag-trustnet/supply-metrics/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Supply Report</span></a>
+            <a class="nav nav-prev" href="https://docs.fiduciadlt.com/using-tag-trustnet/node-health/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Node Health and Data Status</span></a>
             
             
-            <a class="nav nav-next" href="https://docs.fiduciadlt.com/contactus/" aria-label="Previous page" > <span class="d-none d-md-block">Contact us</span><i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="https://docs.fiduciadlt.com/using-tag-trustnet/supply_chain-monitor/" aria-label="Previous page" > <span class="d-none d-md-block">Supply Chain Monitor</span><i class="ti-arrow-right ml-2"></i></a>
             
           </nav>
         </div>
