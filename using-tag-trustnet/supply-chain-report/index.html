@@ -2,10 +2,10 @@
 <html lang="en-us">
   <head>
   <meta charset="utf-8">
-  <title>Spend Waterfall Analysis</title>
+  <title>Supply Chain Report</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="generator" content="Hugo 0.86.0" />
-  <meta name="description" content="Spend Waterfall Analysis -  ">
+  <meta name="description" content="Supply Chain Report -  ">
   
   <!-- ** CSS Plugins Needed for the Project ** -->
   
@@ -67,19 +67,19 @@
 
 
 
-<meta name="twitter:title" content="Spend Waterfall Analysis"/>
+<meta name="twitter:title" content="Supply Chain Report"/>
 <meta name="twitter:description" content="This is meta description"/>
 
 
 
-<meta property="og:title" content="Spend Waterfall Analysis" />
+<meta property="og:title" content="Supply Chain Report" />
 <meta property="og:description" content="This is meta description" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://docs.fiduciadlt.com/using-tag-trustnet/spend-waterfall-report/" />
+<meta property="og:url" content="https://docs.fiduciadlt.com/using-tag-trustnet/supply-chain-report/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Spend Waterfall Analysis"/>
+<meta name="twitter:title" content="Supply Chain Report"/>
 <meta name="twitter:description" content="This is meta description"/>
 
 
@@ -316,7 +316,7 @@
 
 
 <li data-nav-id="https://docs.fiduciadlt.com/using-tag-trustnet/spend-waterfall-report/" title="Spend Waterfall Analysis" class="sidelist
-  active">
+  ">
   <a href="https://docs.fiduciadlt.com/using-tag-trustnet/spend-waterfall-report/">
     Spend Waterfall Analysis
   </a>
@@ -338,7 +338,7 @@
 
 
 <li data-nav-id="https://docs.fiduciadlt.com/using-tag-trustnet/supply-chain-report/" title="Supply Chain Report" class="sidelist
-  ">
+  active">
   <a href="https://docs.fiduciadlt.com/using-tag-trustnet/supply-chain-report/">
     Supply Chain Report
   </a>
@@ -410,157 +410,64 @@
       </div>
       <div class="col-lg-9">
         <div class="p-lg-5 p-4 bg-white" id="content">
-          <h2 class="mb-5" id="title">Spend Waterfall Analysis</h2>
+          <h2 class="mb-5" id="title">Supply Chain Report</h2>
           
           <div class="content">
 
-<div class="notices note" ><p>The Spend Waterfall Report is only available in advertiser and agency nodes.</p></div>
-<p>The Spend Waterfall Report provides a near-real-time view of the costs of each component of your supply chain for a specified timeframe.  Some of the cost data is collected by log files and some of the cost data will need to be provided by estimates in order to get a complete picture&ndash;because some cost data is not available from log files.</p>
-<p id="SCMOverview"> <b><span style="font-size: xx-large">Costs</span></b></p>
-<p>The following section provides a decription for each of the costs provided in this report.</p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Agency</td>
-<td>The cost of the agency&rsquo;s services.  This data is not available from log files.</td>
-</tr>
-<tr>
-<td>Ad Server</td>
-<td>The costs incurred from the ad server  (such as Google CM 360 or Flashtalking).  This data is not available from log files.</td>
-</tr>
-<tr>
-<td>Ad Verification</td>
-<td>The costs incurred from the Ad Verification tool (such as DoubleVerify, IAS or MOAT) .  This data is not available from log files.</td>
-</tr>
-<tr>
-<td>DSP Platform</td>
-<td>The fee that the DSP charges for using its platform</td>
-</tr>
-<tr>
-<td>DSP Data</td>
-<td>The cost that the DSP charges for using data on its platform.</td>
-</tr>
-<tr>
-<td>DSP Other</td>
-<td>This includes any fees that the DSP may charge outside of platform, data, or media.</td>
-</tr>
-<tr>
-<td>DSP Media Cost</td>
-<td>This is the cost that the DSP paid to purchase the impression from the Exchange, as reported by the DSP.</td>
-</tr>
-<tr>
-<td>Media Cost Delta</td>
-<td>This is the difference between the DSP media cost and the exchange cost (if there is a difference)</td>
-</tr>
-<tr>
-<td>Exchange</td>
-<td>This is the total cost that the exchange charged the DSP.</td>
-</tr>
-<tr>
-<td>Gross Working Spend</td>
-<td>The total amount that was paid to the publisher.</td>
-</tr>
-<tr>
-<td>Unmatched with Ad Verification</td>
-<td>The amount that was paid to the publisher that was not matched with the Ad Verification log files.</td>
-</tr>
-<tr>
-<td>Fraud</td>
-<td>The amount that was paid to the publisher and was determined by the Ad Verification tool to be fraudulent.</td>
-</tr>
-<tr>
-<td>Non-brand Safe</td>
-<td>The amount that was paid to the publisher and was determined by the Ad Verification tool to be non-brand safe.</td>
-</tr>
-<tr>
-<td>Non-Viewable</td>
-<td>The amount that was paid to the publisher and was determined by the Ad Verification tool to be non-viewable.</td>
-</tr>
-<tr>
-<td>Viewable</td>
-<td>The amount that was paid to the publisher and was determined by the Ad Verification tool to be non-fruadulent, brand safe, and viewable.</td>
-</tr>
-</tbody>
-</table>
-<p id="SCMOverview"> <b><span style="font-size: xx-large">Options for Calculating Costs</span></b></p>
-<p>The following table shows which options are available for estimating costs in this analysis</p>
-<table>
-<thead>
-<tr>
-<th>Cost</th>
-<th>Use data from log files collected by TAG TrustNet</th>
-<th>% of spend estimate</th>
-<th>CPM Estimate</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Agency</td>
-<td>Not available</td>
-<td>X</td>
-<td>X</td>
-</tr>
-<tr>
-<td>Ad Server</td>
-<td>Not available</td>
-<td>X</td>
-<td>X</td>
-</tr>
-<tr>
-<td>Ad Verification</td>
-<td>Not available</td>
-<td>X</td>
-<td>X</td>
-</tr>
-<tr>
-<td>DSP Platform</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-</tr>
-<tr>
-<td>DSP Data</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-</tr>
-<tr>
-<td>DSP Other</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-</tr>
-<tr>
-<td>DSP Media</td>
-<td>X</td>
-<td>Not available</td>
-<td>Not available</td>
-</tr>
-<tr>
-<td>Exchange</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
-</tr>
-</tbody>
-</table>
-<h4 id="use-data-from-log-files-collected-by-tag-trustnet">Use Data from Log Files Collected by TAG TrustNet</h4>
-<p>This option will automatically base the cost on the log file data that is collected by TAG TrustNet from the vendors (including the DSP, exchange, or publisher)</p>
-<h4 id="-of-spend-estimate">% of Spend Estimate</h4>
-<p>You can enter a % of spend estimate for this cost based on historical or expected costs.</p>
-<h4 id="cpm-estimate">CPM Estimate</h4>
-<p>You can enter a CPM estimate for this cost based on historical or expected costs.</p>
-<p id="SCMOverview"> <b><span style="font-size: xx-large">Controls</span></b></p>
-<h4 id="limit-to-exchange-data-available">Limit to Exchange data available</h4>
-<p>Using this option will allow you to only see the spend data where there is matching exchange data.  This option is available to provide you more relevant data.</p>
-<h4 id="settings">Settings</h4>
-<p>Clicking this button will allow you to set the source of data that will be used for this analysis, and well as input specific values to be used for the estimate (if available).</p>
+<div class="notices note" ><p>The Supply Chain Report is only available in advertiser and agency nodes.</p></div>
+<p>The Supply Chain Report provides a great way to see how well your entire supply chain is meeting any number of your important metrics.  The following information is provided in this section:</p>
+<ul>
+<li><a href="#SCMOverview">Supply Chain Report Overview</a></li>
+<li><a href="#QualifiedImp">Qualified impression</a></li>
+<li><a href="#OtherAdEffMetrics">Other Ad Effectiveness Metrics</a></li>
+<li><a href="#CostEffMetrics">Cost Efficiency Metrics</a>
+<br>
+<br></li>
+</ul>
+<p id="SCMOverview"> <b><span style="font-size: xx-large">Supply Chain Report Overview</span></b></p>
+<h4 id="supply-chain-vendor-types">Supply Chain Vendor Types</h4>
+<p>This report uses a Sankey diagram to show the inventory flowing from the publishers on the right all the way to the ad server to the left.  Wider lines between the vendor types indicate a greater volume or spend.  The four thick vertical lines that are evenly spaced across the report show (from left to right) the ad server(s), DSP(s), exchanges/SSPs, and Publishers (see below).</p>
+<p>In addition, there is a key in the lower left of the diagram.  This key shows how well the inventory (represented by the horizontal lines between the different supply chain vendors) meet the selected metric based on the color of the line.  The color at the top of this key indicates the inventory met the highest level of the selected metric.</p>
+<p><img src="SupplyChainMonitorwCallouts.png" alt="image" title=""></p>
+<h4 id="data-about-the-inventory-between-vendor-types">Data About the Inventory Between Vendor Types</h4>
+<p>If you hover over the lines that appear between the different vendor types, you will see data about the inventory that is flowing between them. In the example below, the person has hovered over the line between the DSP and the Google AdX exchange–resulting in a tooltips box appearing that provides information specifically about the inventory from Google AdX that the DSP has purchased.</p>
+<p><img src="SCMToolTips.png" alt="image" title=""></p>
+<h4 id="tag-certifications">TAG Certifications</h4>
+<p>You can also see which vendors in your supply chain are certified for any of the four TAG programs (Brand Safey Certified, Certified Against Fraud, Certified Against Malware, and Certified Against Piracy). In the example below, Certified Against Fraud has been selected. The vendors whose name or column/box are black indicate that they are currently enrolled in this program, and the ones in red are not. Note: the screen below is used just for illustrative purposes and does not indicate the actual status of these companies.</p>
+<p><img src="TAGcertifications.png" alt="image" title=""></p>
+<h4 id="available-metrics">Available Metrics</h4>
+<p>As you can see from the image below there are a number of metrics available in the Supply Chain Report to choose from.  You can find definitions for all metrics in the <a href="https://docs.fiduciadlt.com/general-info/glossary/" title="glossary">Glossary</a>.</p>
+<p><img src="SCMmetrics.png" alt="image" title=""></p>
+<br>
+<br>
+<h2 id="using-the-supply-chain-report">Using the Supply Chain Report</h2>
+<p id="QualifiedImp"> <b><span style="font-size: x-large">Qualified Impression</span></b></p>
+<p>The objective of having qualified impression or ad spend is to have a single metric that you can use to measure overall ad effectiveness.  It is suggested by TAG TrustNet that this metric be defined by having an impression meet several requirements in ad quality, supply chain transparency, and data consistency.</p>
+<p>In TAG TrustNet the default definition for a qualified impression is that it must be matched with data from all available buy-side platforms (including DSP, ad server and Ad Verification tool), is measurable, brand safe, non-IVT, and the domains that are reported by the Ad Verification tool and DSP are the same. This definition can be customized on request, and can be based on any combination of the metrics that appear within the Supply Chain Report.</p>
+<p id="OtherAdEffMetrics"> <b><span style="font-size: x-large">Other Ad Effectiveness Metrics</span></b></p>
+<p>There are a number of other metrics in the Supply Chain Report that allow you to assess your ad effectiveness by answering the following questions:</p>
+<ul>
+<li>Was the impression matched across the log files received from different supply chain vendor types (ad server, Ad Verification, DSP, and Exchange/SSP)?</li>
+<li>Was the timestamp of the impression that was recorded in the log files of the ad server, Ad Verification, and DSP platforms within 1 minute?</li>
+<li>Was the impression recorded only once by both the DSP and exchange?</li>
+<li>Was the same domain recorded by the Ad Verification tool and DSP for the impression?  If the domains match this indicates that there was unlikely to be any domain spoofing.</li>
+<li>Did the exchange/SSP purchase the impression directly from the publisher?</li>
+<li>Does the publisher have an ads.txt file for that impression?</li>
+<li>Does the exchange/SSP have an sellers.json file for that impression?</li>
+<li>Is the publisher ID in the log file from the exchange/SSP consistent with what is stated in both the ads.txt and sellers.json file?</li>
+<li>Is the entire supply chain TAG Certified Against Fraud?</li>
+<li>Is the entire supply chain TAG Brand Safety Certified?</li>
+<li>Does the impression meet any number of the standard Ad Verification tool criteria (Measureable, Brand Safe, non-IVT, Viewable, etc.)</li>
+</ul>
+<p id="CostEffMetrics"> <b><span style="font-size: x-large">Cost Efficency Metrics</span></b></p>
+<p>There are a number of metrics in the Supply Chain Report that allow you to assess your cost efficiency by answering the following questions:</p>
+<ul>
+<li>Did both the DSP and exchange/SSP provide cost data with the impression?</li>
+<li>Did both the DSP and exchange/SSP provide cost data, along with the clearing price with the impression?</li>
+<li>What percent of the ad spend went directly to the publisher for the impression?
+<br>
+<br></li>
+</ul>
 </div>
           
           <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 27 Jul 2022</p>
@@ -854,6 +761,22 @@
             
             
             
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
 
             
@@ -906,22 +829,6 @@
             
             
             
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             
             
             
@@ -939,10 +846,10 @@
             
 
             
-            <a class="nav nav-prev" href="https://docs.fiduciadlt.com/using-tag-trustnet/qualified-report/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Qualified Report</span></a>
+            <a class="nav nav-prev" href="https://docs.fiduciadlt.com/using-tag-trustnet/spend-waterfall-report/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Spend Waterfall Analysis</span></a>
             
             
-            <a class="nav nav-next" href="https://docs.fiduciadlt.com/using-tag-trustnet/supply-chain-report/" aria-label="Previous page" > <span class="d-none d-md-block">Supply Chain Report</span><i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="https://docs.fiduciadlt.com/using-tag-trustnet/supply-metrics/" aria-label="Previous page" > <span class="d-none d-md-block">Supply Report</span><i class="ti-arrow-right ml-2"></i></a>
             
           </nav>
         </div>
