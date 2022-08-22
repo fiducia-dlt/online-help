@@ -8,35 +8,5 @@
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2022 [TAG TrustNet](https://www.tagtrust.net/)</copyright>
     <lastBuildDate>Mon, 22 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://docs.fiduciadlt.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Glossary</title>
-      <link>https://docs.fiduciadlt.com/general-info/test-docs/docs/glossary/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.fiduciadlt.com/general-info/test-docs/docs/glossary/</guid>
-      <description>Big changes This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Other Stuff</title>
-      <link>https://docs.fiduciadlt.com/general-info/test-docs/docs/other-stuff/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.fiduciadlt.com/general-info/test-docs/docs/other-stuff/</guid>
-      <description>Stuff This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Other Stuff2</title>
-      <link>https://docs.fiduciadlt.com/general-info/test-docs/somethingelse-copy/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://docs.fiduciadlt.com/general-info/test-docs/somethingelse-copy/</guid>
-      <description>Stuff This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
   </channel>
 </rss>

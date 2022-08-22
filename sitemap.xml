@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://docs.fiduciadlt.com/general-info/</loc>
-    <lastmod>2021-11-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/faq/</loc>
     <lastmod>2022-08-04T00:00:00+00:00</lastmod>
@@ -20,23 +20,14 @@
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/dashboard/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://docs.fiduciadlt.com/general-info/faq/</loc>
+    <lastmod>2022-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/data-export/</loc>
     <lastmod>2022-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://docs.fiduciadlt.com/general-info/faq/</loc>
-    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/general-info/test-docs/docs/glossary/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/general-info/test-docs/docs/other-stuff/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/general-info/test-docs/somethingelse-copy/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/metrics-over-time/</loc>
-    <lastmod>2021-12-09T00:00:00+00:00</lastmod>
+    <lastmod>2022-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/general-info/glossary/</loc>
     <lastmod>2022-08-12T00:00:00+00:00</lastmod>
@@ -53,11 +44,11 @@
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/qualified-report/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://docs.fiduciadlt.com/general-info/charter/</loc>
+    <lastmod>2022-08-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/spend-waterfall-report/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/general-info/charter/</loc>
-    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/general-info/tagtrustnet-website/</loc>
     <lastmod>2022-08-16T00:00:00+00:00</lastmod>
@@ -65,11 +56,11 @@
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/supply-chain-report/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://docs.fiduciadlt.com/using-tag-trustnet/supply-metrics/</loc>
+    <lastmod>2022-04-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://docs.fiduciadlt.com/general-info/user-accounts/</loc>
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/using-tag-trustnet/supply-metrics/</loc>
-    <lastmod>2021-12-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/using-tag-trustnet/user-admin/</loc>
     <lastmod>2022-07-27T00:00:00+00:00</lastmod>
@@ -81,8 +72,6 @@
     <lastmod>2021-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://docs.fiduciadlt.com/categories/</loc>
-  </url><url>
-    <loc>https://docs.fiduciadlt.com/general-info/test-docs/docs/</loc>
   </url><url>
     <loc>https://docs.fiduciadlt.com/tags/</loc>
   </url>
