@@ -355,6 +355,7 @@
 <p>As indicated above, the IAB spec requires that these files must contain this authorized seller data in a specific format at a specific location. If the TAG TrustNet report says there is no ads.txt or app-ads.txt file it can mean one of the following:</p>
 <ul>
 <li>The file does not exist</li>
+<li>the domain or app that was provided in the DSP log file was invalid, and it is not possible to find the related ads.txt or app-ads.txt file (for example, comcast.tubitv or b00kdsgipk)</li>
 <li>The format of the file is wrong (according to the IAB specification).</li>
 <li>There is some other technical problem with it meeting the IAB specification.</li>
 </ul>
@@ -362,7 +363,7 @@
 <p>Almost every DSP and SSP has built their own web crawler to look for ads.txt and app-ads.txt files, and there will be differences in the rules that are used by different crawlers to determine if the files are valid or not. Some options on how to approach your DSP are:</p>
 <ul>
 <li>Send them the TAG TrustNet report that shows the sites and apps without ads.txt or app-ads.txt files and ask them to review this list. Just be aware that some of these websites and apps may actually have an ads.txt file according to your DSP—because the criteria used for determining a valid file is different from the ones used by TAG TrustNet.</li>
-<li>Manually check all of the domains that do not have these files according to the TAG TrustNet report. For the ones that you can verify do not have these files, ask your DSP to explain why you are buying from them. Note: when you manually check files like this, you WILL see ads.txt files on website and apps that TAG TrustNet said do not have one, because you will not readily see the technical problems that made the file invalid.</li>
+<li>Manually check all of the domains (or just the ones that have significant spend) that do not have these files according to the TAG TrustNet report. This can be done by going to the Supply Report, downloading the CSV file, and then sorting it by &ldquo;Ads.txt implemented&rdquo; and then spend.  For the ones that you can verify do not have these files, ask your DSP to explain why you are buying from them. Note: when you manually check files like this, you WILL see ads.txt files on website and apps that TAG TrustNet said do not have one, because you will not readily see the technical problems that made the file invalid.  To manually look up an ads.txt file, just add &ldquo;/ads.txt&rdquo; to the end of the top-level domain.  For example, to look up the ads.txt file for yahoo.com, just enter yahoo.com/ads.txt into your browser.  It should return the ads.txt file if there is one.</li>
 </ul>
 </div>
           
