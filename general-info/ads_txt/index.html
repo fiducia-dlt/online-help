@@ -355,15 +355,25 @@
 <p>As indicated above, the IAB spec requires that these files must contain this authorized seller data in a specific format at a specific location. If the TAG TrustNet report says there is no ads.txt or app-ads.txt file it can mean one of the following:</p>
 <ul>
 <li>The file does not exist</li>
-<li>the domain or app that was provided in the DSP log file was invalid, and it is not possible to find the related ads.txt or app-ads.txt file (for example, comcast.tubitv or b00kdsgipk)</li>
-<li>The format of the file is wrong (according to the IAB specification).</li>
+<li>the domain or app that was provided in the DSP log file was invalid, and it is not possible to find the related ads.txt or app-ads.txt file (for example, comcast.tubitv or j00kdsgdsdk)</li>
+<li>The file is formatted incorrectly (according to the IAB specification).</li>
 <li>There is some other technical problem with it meeting the IAB specification.</li>
 </ul>
 <h3 id="i-only-want-my-dsp-to-buy-from-sites-that-have-adstxt-or-app-adstxt-files-but-i-see-from-the-tag-trustnet-report-that-this-is-not-happening-why-is-this-happening-and-what-should-i-do"><strong>I only want my DSP to buy from sites that have ads.txt or app-ads.txt files, but I see from the TAG TrustNet report that this is not happening. Why is this happening and what should I do?</strong></h3>
 <p>Almost every DSP and SSP has built their own web crawler to look for ads.txt and app-ads.txt files, and there will be differences in the rules that are used by different crawlers to determine if the files are valid or not. Some options on how to approach your DSP are:</p>
 <ul>
 <li>Send them the TAG TrustNet report that shows the sites and apps without ads.txt or app-ads.txt files and ask them to review this list. Just be aware that some of these websites and apps may actually have an ads.txt file according to your DSP—because the criteria used for determining a valid file is different from the ones used by TAG TrustNet.</li>
-<li>Manually check all of the domains (or just the ones that have significant spend) that do not have these files according to the TAG TrustNet report. This can be done by going to the Supply Report, downloading the CSV file, and then sorting it by &ldquo;Ads.txt implemented&rdquo; and then spend.  For the ones that you can verify do not have these files, ask your DSP to explain why you are buying from them. Note: when you manually check files like this, you WILL see ads.txt files on website and apps that TAG TrustNet said do not have one, because you will not readily see the technical problems that made the file invalid.  To manually look up an ads.txt file, just add &ldquo;/ads.txt&rdquo; to the end of the top-level domain.  For example, to look up the ads.txt file for yahoo.com, just enter yahoo.com/ads.txt into your browser.  It should return the ads.txt file if there is one.</li>
+<li>Manually check all of the domains (or just the ones that have significant spend) that do not have these files according to the TAG TrustNet report. This can be done by going to the Supply Report, downloading the CSV file, and then sorting it by &ldquo;Ads.txt implemented&rdquo; and then spend.  For the ones that you can verify do not have these files, ask your DSP to explain why you are buying from them. Note: when you manually check files like this, you WILL see ads.txt files on website and apps that TAG TrustNet said do not have one, because you will not readily see the technical problems (such as formatting) that made the file invalid.
+<ul>
+<li>To manually look up an ads.txt file, just add &ldquo;/ads.txt&rdquo; to the end of the top-level domain.  For example, to look up the ads.txt file for yahoo.com, just enter yahoo.com/ads.txt into your browser.  It should return the ads.txt file if there is one.</li>
+<li>Manually looking up app-ads.txt files requires a few more steps.
+<ul>
+<li>For android devices, go to <a href="https://play.google.com/,">https://play.google.com/,</a> search for the app, and find the primary domain for the publisher in the Developer contact (such as yahoo.com).  Then add /app-ads.txt at the end of the primary domain to see if there is an app-ads.txt file for the app (for example, yahoo.com/app-ads.txt).</li>
+<li>For iOS devices, on your iOS device open up the Apple store and search for the app.  Scroll down to the Developer website.  Just add /app-ads.txt to the end of the primary domain to see if there is an app-ads.txt file for the app.</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
           
@@ -704,38 +714,6 @@
             
             
             
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             
             
             
@@ -775,16 +753,16 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-8 text-md-left text-center">
-       <p class="mb-md-0 mb-4">Copyright © 2022 <a href="https://www.tagtrust.net/">TAG TrustNet</a></p>
+       <p class="mb-md-0 mb-4">Copyright © 2023 <a href="https://www.tagtrust.net/">TAG TrustNet</a></p>
       </div>
       <div class="col-md-4 text-md-right text-center">
         <ul class="list-inline">
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://www.facebook.com/tagtoday" aria-label="Facebook"><i class="ti-facebook"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://www.linkedin.com/company/tagtrustnet/" aria-label="Linkedin"><i class="ti-linkedin"></i></a></li>
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://twitter.com/tag_today" aria-label="Twitter"><i class="ti-twitter-alt"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://twitter.com/TAGTrustNet" aria-label="Twitter"><i class="ti-twitter-alt"></i></a></li>
           
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://www.linkedin.com/company/trustworthy-accountability-group/" aria-label="Linkedin"><i class="ti-linkedin"></i></a></li>
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://www.youtube.com/channel/UC89ZzfIbAaeX8tVe7qJsqdQ" aria-label="YouTube"><i class="ti-youtube"></i></a></li>
           
         </ul>
       </div>
