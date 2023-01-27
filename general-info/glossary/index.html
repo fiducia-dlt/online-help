@@ -385,7 +385,7 @@
 </tr>
 <tr>
 <td>Brand safe</td>
-<td style="text-align:left">Ad spend or impressions determined to be brand safe as determined by the Ad Verification tool.</td>
+<td style="text-align:left">Ad spend or impressions determined to be brand safe as determined by the Ad Verification tool. When calculating the % of impressions that are brand safe, the impressions that are not matched between the DSP and Ad Verification systems are considered non-brand safe.</td>
 </tr>
 <tr>
 <td>Brand safe and Non-IVT</td>
@@ -493,15 +493,23 @@
 </tr>
 <tr>
 <td>Non-IVT</td>
-<td style="text-align:left">Ad Spend or impression is determined to be delivered to a person as determined by the Ad Verification tool.</td>
+<td style="text-align:left">Ad Spend or impression is determined to be delivered to a person ascdetermined by the Ad Verification tool. When calculating the % of impressions that are non-IVT, the impressions that are not matched between the DSP and Ad Verification systems are considered IVT.</td>
 </tr>
 <tr>
 <td>Qualified</td>
 <td style="text-align:left">Qualified impressions are impressions that meet a set of requirements to measure ad effectiveness. TAG TrustNet enables members to define their own requirements and to evaluate data reconciled across the supply chain against them. TAG TrustNet recommends defining qualified impression requirements based on ad quality, supply chain transparency and data consistency metrics. In TAG TrustNet the default definition for a qualified impression is that it must be matched with data from the  DSP and Ad Verification tool, is measurable, brand safe, non-IVT, and the domains that are reported by the Ad Verification tool and DSP are the same (except if the Ad Verification tool is not able to provide all domains and/or app names for an advertiser).</td>
 </tr>
 <tr>
+<td>Qualified CPM</td>
+<td style="text-align:left">The CPM of qualified impressions (see Qualified above).</td>
+</tr>
+<tr>
 <td>Qualified Viewable</td>
 <td style="text-align:left">Ad spend or impressions that are both qualified (see Qualified above) AND viewable.</td>
+</tr>
+<tr>
+<td>Qualified Viewable CPM</td>
+<td style="text-align:left">The CPM of impressions that are both qualified (see Qualified above) AND viewable.</td>
 </tr>
 <tr>
 <td>Sellers.json implemented</td>
