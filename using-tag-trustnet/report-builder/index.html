@@ -376,8 +376,132 @@
 <p>To begin creating your report, select the <em>New Report</em> button at the top-right of the Report Builder screen.</p>
 <h3 id="report-period">Report Period</h3>
 <p>In this section of the report you will need to choose the date range for the data that you want to analyze.</p>
-<h3 id="filtering-options">Filtering Options</h3>
-<p>Using filtering options allows you to more tightly focus on spend or impressions that is the most relevant for your analysis.  For example you could look at data only from one specific country, or for one specific SSP, or device type(s).</p>
+<h3 id="group-by-options">Group By Options</h3>
+<p>Using Group By options to determine how the data will be aggregated.  For example, if you are interested in running a report comparing data across different SSPs, you would want to group the data by SSP.  You can use more than one Group By option, but be careful not to use too many or it may cause the output to be too big to be processed.</p>
+<p>The following is a list of the options available for you to use to group the data, and a description of what they mean.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ad Format</td>
+<td>The size of the ads (for example 728 x 90)</td>
+</tr>
+<tr>
+<td>Ad Group ID</td>
+<td>The ID of the Ad Group, also known in DV360 as the Line Item ID</td>
+</tr>
+<tr>
+<td>Ad Group Name.</td>
+<td>The name of the Ad Group, also known in DV360 as the Line Item Name.</td>
+</tr>
+<tr>
+<td>Campaign ID</td>
+<td>The Campaign IDs from the DSP</td>
+</tr>
+<tr>
+<td>Creative Type</td>
+<td>The type of creative that is required for the impression, including Banner, Video, Audio, and Other/Unknown.</td>
+</tr>
+<tr>
+<td>Day</td>
+<td>Group the data by day to look at daily trends.</td>
+</tr>
+<tr>
+<td>Deal</td>
+<td>Impressions that were purchased as part of a deal (PMP) and those that were not.</td>
+</tr>
+<tr>
+<td>Domain/App ID</td>
+<td>The domains or app Ids that the impressions were served on.</td>
+</tr>
+<tr>
+<td>DSP Abbreviated Name</td>
+<td>The DSP names, such as Google DV360.</td>
+</tr>
+<tr>
+<td>Insertion Order ID</td>
+<td>The ID of the insertion order.</td>
+</tr>
+<tr>
+<td>Matched Fold Position</td>
+<td>The locations of the ad on the screen relative to the fold (Above, Below, or Unknown)</td>
+</tr>
+<tr>
+<td>Month</td>
+<td>Group the data by month to look at monthly trends.</td>
+</tr>
+<tr>
+<td>Seller ID</td>
+<td>The sellers account ID that a buyer will transact with (typically the SSPs' account with a publisher or seller).</td>
+</tr>
+<tr>
+<td>SSP Name</td>
+<td>The names of the Supply Side Platforms.</td>
+</tr>
+<tr>
+<td>Week</td>
+<td>Group the data by week to look at weekly trends.</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="columns">Columns</h3>
+<p>In this section you can choose which columns you want to appear in your report.</p>
+<p>You can manually select which columns to include in your report by clicking on the <em>Select columns</em> option to the right of the <em>Columns</em> control.  Since there are a lot of columns to select from  (over 85), to make this selection process easier we have grouped them into categories.  These categories appear just below the &ldquo;Select columns* field and begin with All, Delivery, TrueKPI Framework, etc. You can select one or more of these categories.  After you select them you can select the Columns menu to see which specific columns are included.  Here is a brief description of the types of data included in each column category.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All</td>
+<td>This includes all available columns.</td>
+</tr>
+<tr>
+<td>Delivery</td>
+<td>This includes ad spend and impression columns</td>
+</tr>
+<tr>
+<td>TrueKPI Framework</td>
+<td>This includes all ad spend and impressions columns that have &ldquo;True&rdquo; in the column name (such as TrueImpressions and TrueAd Spend)</td>
+</tr>
+<tr>
+<td>Supply Chain Health</td>
+<td>This includes the columns that have unique counts (including Domains &amp; Apps, Seller IDs, and SSPs), along with ad spend and impressions with matched publisher domain or app id and %.</td>
+</tr>
+<tr>
+<td>Transaction Costs</td>
+<td>This includes columns that have anything to do with CPM, costs or fees, including ad spend or impressions that have specific types of fees or costs.</td>
+</tr>
+<tr>
+<td>Data Matching</td>
+<td>This includes ad spend or impressions columns for matching data across the DSP, ad verification platform, and/or SSP.</td>
+</tr>
+<tr>
+<td>Media Quality</td>
+<td>This includes ad spend or impressions or % columns related to any aspect of media quality, including brand safety, non-IVT, measurability, and viewability.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sort-by">Sort By</h3>
+<p>This section allows you to choose how the data will be sorted.  You can select more than one sort option.</p>
+<p>The following control allows you to change the sort order to be ascending or descending.<img src="Change-accending.png" alt="image" title=""></p>
+<p>If you have selected more than one sort option, the following controls to the right of the selected metrics allow you to move the sort options up, down, or remove them. <img src="Change-sort-order.png" alt="image" title=""></p>
+<h3 id="report-name">Report Name</h3>
+<p>This is where you will give your report a name.  This name will be used in two ways: the output of this report request will appear with this name on the Report Builder screen.  In addition, when you download a report from the Report Builder screen, the name of the file for this download will begin with this name.</p>
+<h3 id="filters">Filters</h3>
+<p>Using filters is optional and allows you to more tightly focus on spend or impressions that is the most relevant for your analysis.  For example you could look at data only from one specific country, or for one specific SSP, or device type(s).</p>
 <p>You can have more than one filter.  And you can make more than one selection for each filter.  For example, if you want to run a report to look at all streaming media data, you could select the Creative Type filter and select Connected TV and Connected Device.</p>
 <p>For some of the selections there are additional options.  For exampe, for domain and app ID you can choose an option that starts with, matches, or contains specific values.</p>
 <p>The following is a list of the options available for your to use to filter the data, and a description of what they mean.</p>
@@ -459,91 +583,6 @@
 </tr>
 </tbody>
 </table>
-<h3 id="group-by-options">Group By Options</h3>
-<p>Using Group By options to determine how the data will be aggregated.  For example, if you are interested in running a report comparing data across different SSPs, you would want to group the data by SSP.  You can use more than one Group By option, but be careful not to use too many or it may cause the output to be too big to be processed.</p>
-<p>The following is a list of the options available for you to use to group the data, and a description of what they mean.</p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Ad Format</td>
-<td>The size of the ads (for example 728 x 90)</td>
-</tr>
-<tr>
-<td>Ad Group ID</td>
-<td>The ID of the Ad Group, also known in DV360 as the Line Item ID</td>
-</tr>
-<tr>
-<td>Ad Group Name.</td>
-<td>The name of the Ad Group, also known in DV360 as the Line Item Name.</td>
-</tr>
-<tr>
-<td>Campaign ID</td>
-<td>The Campaign IDs from the DSP</td>
-</tr>
-<tr>
-<td>Creative Type</td>
-<td>The type of creative that is required for the impression, including Banner, Video, Audio, and Other/Unknown.</td>
-</tr>
-<tr>
-<td>Day</td>
-<td>Group the data by day to look at daily trends.</td>
-</tr>
-<tr>
-<td>Deal</td>
-<td>Impressions that were purchased as part of a deal (PMP) and those that were not.</td>
-</tr>
-<tr>
-<td>Domain/App ID</td>
-<td>The domains or app Ids that the impressions were served on.</td>
-</tr>
-<tr>
-<td>DSP Abbreviated Name</td>
-<td>The DSP names, such as Google DV360.</td>
-</tr>
-<tr>
-<td>Insertion Order ID</td>
-<td>The ID of the insertion order.</td>
-</tr>
-<tr>
-<td>Matched Fold Position</td>
-<td>The locations of the ad on the screen relative to the fold (Above, Below, or Unknown)</td>
-</tr>
-<tr>
-<td>Month</td>
-<td>Group the data by month to look at monthly trends.</td>
-</tr>
-<tr>
-<td>Seller ID</td>
-<td>The sellers account ID that a buyer will transact with (typically the SSPs' account with a publisher or seller).</td>
-</tr>
-<tr>
-<td>SSP Name</td>
-<td>The names of the Supply Side Platforms.</td>
-</tr>
-<tr>
-<td>Week</td>
-<td>Group the data by week to look at weekly trends.</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="columns">Columns</h3>
-<p>In this section you can choose which columns you want to appear in your report.</p>
-<h3 id="sort-by">Sort By</h3>
-<p>This section allows you to choose how the data will be sorted.  You can select more than one sort option.</p>
-<p>The following control allows you to change the sort order to be ascending or descending.<img src="Change-accending.png" alt="image" title=""></p>
-<p>If you have selected more than one sort option, the following controls to the right of the selected metrics allow you to move the sort options up, down, or remove them. <img src="Change-sort-order.png" alt="image" title=""></p>
-<h3 id="report-name">Report Name</h3>
-<p>This is where you will give your report a name.  This name will be used in two ways: the output of this report request will appear with this name on the Report Builder screen.  In addition, when you download a report from the Report Builder screen, the name of the file for this download will begin with this name.</p>
 <h3 id="generate-report-button">Generate Report Button</h3>
 <p>When you have completed all of your selections on this screen you will need to select the <em>Generate Report</em> button to submit this report request.  The report will appear on the Report Builder screen.  The field to the far right on the Report Builder screen will show if the report is processing, is ready to download, or has failed for some reason.</p>
 
@@ -551,7 +590,7 @@
 <div class="notices tip" ><p>You can take an existing report and modify it for another one by selecting the following icon to the right of any existing report name on the Report Builder screen.    <img src="Edit-report.png" alt="image" title=""></p></div>
 </div>
           
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 23 May 2024</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 09 Jul 2024</p>
           <nav class="pagination mt-3">
             
             
