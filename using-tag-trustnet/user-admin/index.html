@@ -379,21 +379,21 @@
 <h5 id="user-roles">User Roles</h5>
 <ul>
 <li><em>User Account Manager:</em> This role is able to create new accounts for users in the node for all countries (for advertiser and agency nodes) and all advertisers (for agency nodes) and assign them one or more of the following roles below.  This role is controlled by TAG TrustNet and is assigned to only one user account for each node.</li>
-<li><em>Benchmark Report Viewer</em>: This role will have access to the Benchmark.</li>
-<li><em>Business Metrics Viewer (advertiser or agency node only):</em> The access for this role will be limited to the screens accessed from the Dashboard and Insights options in the top navigation bar.</li>
+<li><em>Benchmark Viewer</em>: This role will have access to the Benchmark in the Insights menu.</li>
+<li><em>Business Metrics Viewer (advertiser or agency node only):</em> This role will have access all of the screens available from the Insights menu in the top navigation bar&ndash;except for the Benchmark (whose access is controlled with the Benchmark Viewer role).</li>
 <li><em>Data Manager:</em>
 <ul>
-<li>for advertiser and agency nodes, the access for this role will be limited to the screens accessed from the Data Feeds option in the top navigation bar.</li>
+<li>for advertiser and agency nodes, this role will have access to access to the screens available from the Data Feeds menu in the top navigation bar.</li>
 <li>for all ad server, Ad Verification tool, DSP, Exchange/SSP, and Publisher nodes the access for this role will be limited to the Data Feeds in the top navigation bar.</li>
 </ul>
 </li>
 </ul>
 <h5 id="countries-advertiser-and-agency-nodes-only">Countries (advertiser and agency nodes only)</h5>
-<p>This will allow users who have been assigned the Business Metrics Viewer role to have their access to be restricted to one or more countries.  This setting does not impact the screens or data available to the BenchMark Viewer or Data Manager role.</p>
+<p>This will allow users who have been assigned a Business Metrics Viewer role to have their access to be restricted to one or more countries.  This setting does not impact the screens or data available to the BenchMark Viewer or Data Manager role.</p>
 <h5 id="advertiser-restriction-agency-node-only">Advertiser Restriction (agency node only)</h5>
 <p>When the Business Metrics Viewer role is selected, and at least one country has been selected, the access for a user can be restricted to one or more advertisers.  This setting will impact all screens that the Business Metrics Viewer has access to (for details on these screens, see <em>User Roles</em> above).</p>
 <h5 id="making-an-account-active-or-inactive">Making an account active or inactive</h5>
-<p>The user&rsquo;s account can be changed to be active or inactive by the <em>is active</em> control.  If it is inactive the user is not allowed to login to their TAG TrustNet node.  Accounts are not allowed to be deleted in order to maintain user data integrity.</p>
+<p>The user&rsquo;s account can be changed to be active or inactive by the <em>is active</em> control.  If it is inactive the user is not allowed to login to their TAG TrustNet node.  Accounts are not allowed to be deleted in order to maintain the integrity of user action history.</p>
 <h5 id="resetting-a-password">Resetting a password</h5>
 <p>If a user has forgotten their password or has been locked out of their account after 3 failed logins, the Node User Adminstrator should follow these steps to reset the password:</p>
 <ol>
@@ -402,7 +402,7 @@
 <li>Select the <em>All users</em> view.</li>
 <li>Find the row that has the account that needs the password reset.</li>
 <li>On the far right of that row there is an icon with three dots.  Click it and select &ldquo;Reset Password&rdquo;</li>
-<li>Click the link <em>Send Link by Email</em> and an email will automatically be sent to the user to reset their password (the email will be sent from <em>TAG TrustNet</em> and the subject will be <em>Reset Password</em>).  Alternatively you can send this manually by copying the link in the dialog window.  It is recommended to manually send the link since some company email systems may filter out the email.</li>
+<li>Click the link <em>Send Link by Email</em> and an email will automatically be sent to the user to reset their password (the email will be sent from <em>TAG TrustNet</em> and the subject will be <em>Reset Password</em>).  Alternatively you can send this link manually by copying the link in the dialog window.  It is recommended to manually send the link since some company email systems may filter out the email.</li>
 </ol>
 <h3 id="other-account-information">Other Account Information</h3>
 <h5 id="time-out">Time-out</h5>
@@ -414,7 +414,7 @@
 <p>If for any reason a user cannot use his device (which has the authentication application) any longer, use of the authentication app can be reestablished on a new device by resetting the password.</p>
 </div>
           
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 16 Jul 2024</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 04 Sep 2024</p>
           <nav class="pagination mt-3">
             
             
